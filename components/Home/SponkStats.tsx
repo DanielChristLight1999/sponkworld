@@ -5,7 +5,7 @@ import { balthazar } from '@/app/layout'
 
 export default function SponkStats() {
   return (
-    <div className='flex lg:flex-col justify-center items-center sm:flex-row flex-col bg-[#f0f0f0] p-10 sm:p-20'>
+    <div className='flex xl:flex-row justify-center items-center flex-col bg-[#f0f0f0] p-10 sm:p-20'>
         <div className='w-full flex flex-col gap-4'>
             <Image className='rounded rounded-lg' src={"/images/sponk-on-stage.gif"} width={500} height={500} alt='sponk on stage' />
             <h3 className='text-xl font-semibold text-[#555555]'>Sponk is now touring. See Sponk live!</h3>
