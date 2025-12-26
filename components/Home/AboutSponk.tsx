@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function AboutSponk() {
   return (
-    <div className='flex p-20 items-start bg-[#590740] justify-between '>
+    <div className='flex flex-col sm:flex-row p-10 sm:p-20 items-start gap-5 bg-[#590740]  '>
         <div className='flex w-full gap-4 flex-col'>
             <Image src={"/images/sponk-dvd-2.png"} alt="About Sponk" width={300} height={300} />
             <div className='w-full'>
@@ -13,7 +13,7 @@ export default function AboutSponk() {
             </div>
         </div>
         <div className={`text-white w-full flex flex-col gap-6 ${balthazar.className}`}>
-            <h1 className={`text-6xl font-[700] text-[#e381c5]`}>Get $SPONK Now on Solana</h1>
+            <h1 className={`text-5xl font-[700] text-[#e381c5]`}>Get $SPONK Now on Solana</h1>
             <h3 className='text-3xl text-[#e381c5]'>Total Supply: TBD</h3>
 
             <h3 className='text-3xl font-bold'>Supply breakdown: TBD</h3>

@@ -5,7 +5,7 @@ import { balthazar } from '@/app/layout'
 
 export default function SponkStats() {
   return (
-    <div className='flex bg-[#f0f0f0] p-20'>
+    <div className='flex lg:flex-col justify-center items-center sm:flex-row flex-col bg-[#f0f0f0] p-10 sm:p-20'>
         <div className='w-full flex flex-col gap-4'>
             <Image className='rounded rounded-lg' src={"/images/sponk-on-stage.gif"} width={500} height={500} alt='sponk on stage' />
             <h3 className='text-xl font-semibold text-[#555555]'>Sponk is now touring. See Sponk live!</h3>
@@ -16,7 +16,7 @@ export default function SponkStats() {
             <h3 className='text-2xl font-bold'>Sponk will tour many DEXs, CEXs and DeFi applications.</h3>
 
             <h2 className='text-3xl font-bold'>Current stats:</h2>
-            <div className={`flex items-center text-center gap-6 font-bold justify-between w-full text-[#555555] ${balthazar.className}`}>
+            <div className={`flex sm:flex-row flex-col items-center text-center gap-6 font-bold justify-between w-full text-[#555555] ${balthazar.className}`}>
                 <Card className='w-full'>
                     <CardTitle className='text-3xl'>0</CardTitle>
                     <CardContent className='text-xl'>Holders</CardContent>

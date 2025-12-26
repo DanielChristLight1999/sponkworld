@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function WhoisSponk() {
     return (
-        <div className='flex flex-col text-center items-center p-20 gap-6'>
+        <div className='flex flex-col text-center items-center p-10 sm:p-20 gap-6'>
             <Image src={"/images/sponk-eyes-icon.png"} alt="Who is Sponk?" width={150} height={150} />
             <div className='flex w-full justify-end'>
                 <p>ABOUT SPONK</p>
