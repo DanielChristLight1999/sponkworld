@@ -12,7 +12,7 @@ export default function AboutSponk() {
         </div>
         <div className='w-full'>
           <h2 className='text-[#e381c5] font-bold text-2xl'>Collector's Edition DVD: The BEST of Sponk</h2>
-          <p className='text-white text-lg font-bold'>Hilarious bloopers include: Sponk still sleeping. Sponk still drunk, Sponk falls off stage 2, and much more</p>
+          <p className='text-white text-lg font-bold'>Hilarious bloopers include: Sponk still sleeping. Sponk still drunk, Sponk falls off stage, and much more</p>
         </div>
       </div>
       <div className={`text-white w-full flex flex-col gap-6 ${balthazar.className}`}>
