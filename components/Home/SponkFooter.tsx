@@ -18,7 +18,7 @@ export default function SponkFooter() {
                     </CardContent>
                 </Card>
                 <p className="text-center text-white">
-                    © Copyright 2021: Sponk World
+                    © Copyright 2025: Sponk World
                 </p>
             </div>
         </div>
