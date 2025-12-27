@@ -8,7 +8,7 @@ export default function AboutSponk() {
       <div className='flex w-full gap-4 flex-col'>
         <div className='flex items-center w-full gap-20 2xl:gap-60'>
           <Image className='w-60' src={"/images/sponk-dvd-2.png"} alt="About Sponk" width={300} height={300} />
-          <Image className='w-60 transform scale-x-[-1]' src={"/images/sponk-dvd-3.png"} alt="About Sponk" width={300} height={300} />
+          <Image className='w-60 hidden xl:block transform scale-x-[-1]' src={"/images/sponk-dvd-3.png"} alt="About Sponk" width={300} height={300} />
         </div>
         <div className='w-full'>
           <h2 className='text-[#e381c5] font-bold text-2xl'>Collector's Edition DVD: The BEST of Sponk</h2>
